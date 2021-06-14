@@ -1,0 +1,157 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+body{
+    background-color: #141518;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pantalla{
+    background-color: #1D242B;
+    color: white;
+    display: grid;
+    border-radius: 12px;
+    width: 50%;
+    height: 60vh;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 20% 20% 20%;
+}
+
+.titulo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.2);
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inicio{
+    grid-row: 2;
+    color: #E67E22;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+inicio>p .lab{
+    font-weight: 400;
+    font-size: 25px;
+    
+}
+.inicio>input{
+    padding: 10px;
+    border-radius: 8px;
+}
+.bn{
+    grid-row: 3;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.datos{
+    width: 100%;
+    height: 30vh;
+    grid-row: 2;
+    border: solid 3px green;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    text-align: center;
+}
+.datos>h3{
+    font-family: 'Roboto', sans-serif;
+}
+.datos>h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #258C53;
+}
+.datos #usertext{
+    margin: 2% 0 2% 0;
+}
+.nuevo{
+    margin-top: 2%;
+    
+}
+.operaciones>input{
+    border:none;
+    outline:none;
+    display:inline-block;
+    height:34px;
+    vertical-align:middle;
+    position:relative;
+    bottom:14px;
+    right:9px;
+    border-radius:10px;
+    width:220px;
+    box-sizing:border-box;
+    padding:0 18px;
+}
+
+
+
+
+#ingresa{
+    background-color: #2A3743; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.bn>button{
+    background-color: #6DD197; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.operaciones{
+    margin: 5% 0 5% 0;
+}
+
+#retira{
+    background-color: #2A3743; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+.inicio>label{
+    margin-left: 4%;
+}
+.inicio>input{
+    margin-left: 1%;
+}
